@@ -1,0 +1,22 @@
+body
+{
+	text-align: center;
+	background-color: #768FC8;
+}
+h1
+{
+	font-size: 45px;
+}
+a
+{
+	color: #4671D5;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #6C8CD5;
+}
+p
+{
+	font-size: 21px;
+}

@@ -1,0 +1,106 @@
+/* Alessandro G. 
+	Jam club 
+		at 
+Santa Susana High School
+
+Please enjoy.
+*/
+/* Structural css */
+body {
+	margin:0;
+	padding: 10px;
+	text-align: center;
+}
+
+table, tr, td {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+div {
+	margin: 0 auto;
+	width: 960px;
+}
+
+ul {
+	margin-left: 4em;
+}
+
+li {
+	text-align: left;
+}
+
+#left {
+	width: 240px;
+	height:650px;
+}
+
+#right {
+	width: 720px;
+	height:650px;
+}
+
+#ListLinks {
+	display:block;
+	margin-left: 2em;
+}
+
+/* Padding */
+a {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+ul {
+	list-style-position: inside;
+	list-style-image: none;
+}
+
+/* Colors */
+#times {
+	font-size: 22px;
+}
+
+#special {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#ListLinks  a:hover {
+	color: #232323;
+} 
+
+#banner {
+	background-color: #FCD514;
+}
+
+#left {
+	background-color: #FCD514;
+}
+
+#right {
+	background-color: #FCD514;
+}
+
+#CR {
+	background-color: #FCD514;
+}
+
+table {
+	background-color: #4169E1;
+	box-shadow: 1px 1px 50px 5px #1187D4;
+}
+
+body {
+	background-color: #100E0E;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 20px;
+}
+
+a:visited {
+	color: inherit;
+}

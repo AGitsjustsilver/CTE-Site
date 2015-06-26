@@ -1,0 +1,139 @@
+body
+{
+	text-align: center;
+	margin:0px;
+	padding:0px;
+	background-color: #87817C;
+}
+
+h1
+{
+	font-size: 45px;
+}
+
+a
+{
+	color: #151915;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #464646;
+}
+
+p
+{
+	font-size: 23px;
+}
+
+input
+{
+	color: #151915;
+	background-color: #837C7C;
+	border: none;
+	text-align: center;
+}
+
+input:hover
+{
+	color: #464646;
+}
+	/* NavBar padding  */
+td.padding
+{
+	padding-bottom: 20px;
+	text-align:center;
+}
+
+td.padding a 
+{
+	font-size: 20px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+	/* Padding for side links */
+td.padding2
+{
+	padding-bottom:15px;
+	text-align: center;
+}
+
+table, tr, td
+{
+	border: 1px solid #837C7C;
+	/*border-collapse: collapse;*/
+	border-radius:5px;
+	background-color: #837C7C;
+}
+
+#Site
+{
+	z-index: -1;
+}
+
+#banner 
+{
+	height:200px;
+	background-color: #AEA7A7;
+}
+
+#NavBar
+{
+	margin:10px 0px 8px;
+}
+
+#td0
+{
+	background-color: #AEA7A7;
+}
+
+#td1
+{
+	height:49px;
+	border-radius: 5px;
+	background-color: #AEA7A7;
+}
+
+#td2
+{
+	width:175px;
+	border-radius: 15px;
+	background-color: #AEA7A7;
+}
+
+#td3
+{
+	width:175px;
+	border-radius: 15px;
+	background-color: #AEA7A7;
+}
+
+#td4
+{
+	background-color: #AEA7A7;
+}
+
+#td5
+{
+	background-color: #AEA7A7;
+}
+#img 
+{
+	height:200px;
+	width:200px;
+}
+
+#Secret-Lenny
+{
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.4;
+	z-index: 1;
+}
+
+#Secret-Lenny a 
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 10px;
+}
