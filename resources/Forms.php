@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title> Short Cuts! </title>
-		<link rel="stylesheet" type="text/css" href="Forms.external.1.css">
-		<link rel="icon" type="image/x-png" href="Shark.gif">
+		<link rel="stylesheet" type="text/css" href="\css\Forms.external.1.css">
+		<link rel="icon" type="image/x-png" href="\img\Shark.gif">
 		<script>
 			function Back() {
 				window.location.assign("http://www.alessandroguaresti2017.rop.santasusana.org/");
