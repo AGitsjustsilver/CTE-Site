@@ -137,3 +137,14 @@ table, tr, td
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 10px;
 }
+
+#opt
+{
+	text-align: right;
+	padding-right: 20px;
+}
+
+#opt a
+{
+	cursor: pointer;
+}

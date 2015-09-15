@@ -6,14 +6,37 @@
     <meta charset="utf-8"/>
     <title> Short Cuts! </title>
     <link rel="stylesheet" type="text/css" href="\css\personal.external.1.css">
+
     <link rel="icon" type="image/x-png" href="\img\Shark.gif">
   </head>
   
   <body>  
+    <script type="text/javascript">
+        var i = -1;
+        function bTarget () {
+            for(var j=0; j <= 25; j++){
+                i++;
+                document.getElementsByTagName('a')[i].setAttribute("target", "_blank");
+            }
+        }
+        function sTarget () {
+            var x = location.href;
+            window.open(x);
+            window.close(x);
+        }
+    </script>
     <div style="margin: 0 auto; width: 960px;" id="Site">
       <table>
         <tr id="Banner">
-          <td colspan="3" id="td0"><img src="\img\Shortcuts.png" alt="SHORTCUTS!"></td>
+            <td colspan="3" id="td0">
+                <img src="\img\Shortcuts.png" alt="SHORTCUTS!">
+                <div id="opt">
+                    Link options:
+                    <button onclick="bTarget();">New Tabs</button> |
+                    <button onclick="sTarget();">Same Tab</button>
+                </div>
+                <!-- Try to get all links to do what they are supposed to do when you click the option -->
+            </td>
         </tr>
         <tr>
           <td colspan="3" class="padding" id="td1">
@@ -91,12 +114,14 @@
         </tr>
         <tr>
           <!-- Update This When worked on ok ;) -->
-          <td colspan="3" id="td5">&copy; <a href="Updates.html">August 17, 2015</a>; <a href="Forms.html">Alessandro Guaresti</a>;</td>
+            <td colspan="3" id="td5">
+                &copy; <a href="Updates.html">September 14, 2015</a>; <a href="Forms.html">Alessandro Guaresti</a>;
+            </td>
         </tr>
       </table>
     </div>
     <div id="Secret-Lenny">
-      <a href="404.html" alt="Lenny face" title="Oh hai there">( ͡° ͜ʖ ͡ °)</a>
+      <a href="404.html" alt="Lenny face" title="Oh hai there">( ͡~ ͜ʖ ͡°)</a>
     </div>
   </body>
 
