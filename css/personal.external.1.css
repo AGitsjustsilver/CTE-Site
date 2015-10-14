@@ -49,8 +49,8 @@ td.padding
 td.padding a 
 {
 	font-size: 20px;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 0.85em;
+	padding-right: 0.85em;
 }
 	/* Padding for side links */
 td.padding2
@@ -120,15 +120,15 @@ table, tr, td
 }
 #img 
 {
-	height:200px;
-	width:200px;
+	height:235px;
+	width:235px;
 }
 
 #Secret-Lenny
 {
 	position: absolute;
 	bottom: 0px;
-	opacity: 0.4;
+	opacity: 0.666;
 	z-index: 1;
 }
 
